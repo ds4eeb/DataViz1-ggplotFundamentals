@@ -22,15 +22,15 @@ How to render the Quarto document as PDF:
 
 1.  In the YAML header of your Quarto document, replace the
 
-**format: html**
+*format: html*
 
 bit with:
 
-**format:**
+*format:*
 
-**pdf: default**
+*pdf: default*
 
-**gfm: default**
+*gfm: default*
 
 1.  In your Terminal tab (next to console), enter the line of code
     `quarto install tinytex` and click enter.
