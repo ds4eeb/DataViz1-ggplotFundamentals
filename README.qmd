@@ -11,9 +11,27 @@ Welcome! Today's activity is all about the basics of making plots. We will be us
 
 You will submit two outputs for this activity:
 
-1.  A Quarto document with all of your R code that has been rendered to PDF. Please include all of the code that appears in this document, in addition to adding your own code in the "Q#" sections.
+1.  A **PDF** of a rendered Quarto document with all of your R code (see below). Please include all of the code that appears in this document, in addition to adding your own code in the "Q#" sections.
 
 2.  A plot and research question from the final section
+
+How to render the Quarto document as PDF:
+
+1) In the YAML header of your Quarto document, replace the
+
+**format: html**
+
+bit with:
+
+**format:**
+
+**pdf: default**
+
+**gfm: default**
+
+2) In your Terminal tab (next to console), enter the line of code `quarto install tinytex` and click enter.
+
+Now, when you render the Quarto document, it should render as a PDF.
 
 ## Setting up
 
