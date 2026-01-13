@@ -26,7 +26,7 @@ How to render the Quarto document as PDF:
 
 bit with:
 
-*format:*
+*format: pdf*
 
 *pdf: default*
 
